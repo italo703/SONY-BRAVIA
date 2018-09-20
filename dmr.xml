@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0"
+      xmlns:pnpx="http://schemas.microsoft.com/windows/pnpx/2005/11"
+      xmlns:df="http://schemas.microsoft.com/windows/2008/09/devicefoundation">
+  <specVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </specVersion>
+  <device>
+    <deviceType>urn:schemas-upnp-org:device:MediaRenderer:1</deviceType>
+    <friendlyName>BRAVIA KDL-46EX505</friendlyName>
+    <manufacturer>Sony Corporation</manufacturer>
+    <manufacturerURL>http://www.sony.net/</manufacturerURL>
+    <modelName>KDL-46EX505</modelName>
+    <UDN>uuid:00000000-0000-1010-8000-78843C7E17F0</UDN>
+    <dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMR-1.50</dlna:X_DLNADOC>
+    <iconList>
+      <icon>
+        <mimetype>image/png</mimetype>
+        <width>32</width>
+        <height>32</height>
+        <depth>24</depth>
+        <url>/MediaRenderer_32x32x24.png</url>
+      </icon>
+      <icon>
+        <mimetype>image/png</mimetype>
+        <width>48</width>
+        <height>48</height>
+        <depth>24</depth>
+        <url>/MediaRenderer_48x48x24.png</url>
+      </icon>
+      <icon>
+        <mimetype>image/png</mimetype>
+        <width>60</width>
+        <height>60</height>
+        <depth>24</depth>
+        <url>/MediaRenderer_60x60x24.png</url>
+      </icon>
+      <icon>
+        <mimetype>image/png</mimetype>
+        <width>120</width>
+        <height>120</height>
+        <depth>24</depth>
+        <url>/MediaRenderer_120x120x24.png</url>
+      </icon>
+      <icon>
+        <mimetype>image/jpeg</mimetype>
+        <width>32</width>
+        <height>32</height>
+        <depth>24</depth>
+        <url>/MediaRenderer_32x32x24.jpg</url>
+      </icon>
+      <icon>
+        <mimetype>image/jpeg</mimetype>
+        <width>48</width>
+        <height>48</height>
+        <depth>24</depth>
+        <url>/MediaRenderer_48x48x24.jpg</url>
+      </icon>
+      <icon>
+        <mimetype>image/jpeg</mimetype>
+        <width>60</width>
+        <height>60</height>
+        <depth>24</depth>
+        <url>/MediaRenderer_60x60x24.jpg</url>
+      </icon>
+      <icon>
+        <mimetype>image/jpeg</mimetype>
+        <width>120</width>
+        <height>120</height>
+        <depth>24</depth>
+        <url>/MediaRenderer_120x120x24.jpg</url>
+      </icon>
+    </iconList>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:RenderingControl:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:RenderingControl</serviceId>
+        <SCPDURL>/RenderingControlSCPD.xml</SCPDURL>
+        <controlURL>/upnp/control/RenderingControl</controlURL>
+        <eventSubURL>/upnp/event/RenderingControl</eventSubURL>
+      </service>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>
+        <SCPDURL>/ConnectionManagerSCPD.xml</SCPDURL>
+        <controlURL>/upnp/control/ConnectionManager</controlURL>
+        <eventSubURL>/upnp/event/ConnectionManager</eventSubURL>
+      </service>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:AVTransport:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:AVTransport</serviceId>
+        <SCPDURL>/AVTransportSCPD.xml</SCPDURL>
+        <controlURL>/upnp/control/AVTransport</controlURL>
+        <eventSubURL>/upnp/event/AVTransport</eventSubURL>
+      </service>
+    </serviceList>
+    <av:X_MaxBGMCount xmlns:av="urn:schemas-sony-com:av">64</av:X_MaxBGMCount>
+    <av:X_StandardDMR xmlns:av="urn:schemas-sony-com:av">1.1</av:X_StandardDMR>
+    <av:X_IRCCCodeList xmlns:av="urn:schemas-sony-com:av">
+      <av:X_IRCCCode command="Power">AAAAAQAAAAEAAAAVAw==</av:X_IRCCCode>
+      <av:X_IRCCCode command="Power ON">AAAAAQAAAAEAAAAuAw==</av:X_IRCCCode>
+      <av:X_IRCCCode command="Power OFF">AAAAAQAAAAEAAAAvAw==</av:X_IRCCCode>
+    </av:X_IRCCCodeList>
+    <pnpx:X_compatibleId>MS_DigitalMediaDeviceClass_DMR_V001</pnpx:X_compatibleId>
+    <pnpx:X_deviceCategory>MediaDevices</pnpx:X_deviceCategory>
+    <pnpx:X_hardwareId>VEN_SONY&amp;DEV_BRAVIA_DMR&amp;REV_01 VEN_0033&amp;DEV_0006&amp;REV_01 urn:schemas-upnp-org:device:MediaRenderer:1</pnpx:X_hardwareId>
+    <df:X_deviceCategory>Display.TV Multimedia.DMR</df:X_deviceCategory>
+  </device>
+</root>
